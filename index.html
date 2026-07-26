@@ -1,0 +1,1724 @@
+ <!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>Qentora Digital | Premium Digital Marketing Agency & Academy Kerala</title>
+    <meta name="description" content="Qentora Digital is Kerala's premier performance digital marketing agency & academy. We scale businesses with SEO, Meta Ads, Google Ads, Web Development, and AI Automation.">
+    <meta name="keywords" content="Digital Marketing Agency Kerala, Best SEO Agency Thrissur, Meta Ads Expert Kerala, Performance Marketing India, Qentora Digital, Marketing Academy Kerala">
+    <meta name="author" content="Qentora Digital">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://qentoradigital.in">
+<link rel="icon" type="image/png" href="https://qentoradigital.in/logo.png">
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Qentora Digital | Learn. Build. Grow.">
+    <meta property="og:description" content="Scale your revenue with performance marketing, custom high-converting web applications, and AI-driven brand strategies.">
+    <meta property="og:image" content="https://qentoradigital.in/logo.png">
+    <meta property="og:url" content="https://qentoradigital.in">
+
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Schema.org JSON-LD for Local Business & SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "DigitalMarketingAgency",
+      "name": "Qentora Digital",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "logo": "https://qentoradigital.in/logo.png",
+      "url": "https://qentoradigital.in",
+      "telephone": "+919292006957",
+      "email": "qentoradigital.in@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Pangarappilli, Chelakkara",
+        "addressLocality": "Thrissur",
+        "addressRegion": "Kerala",
+        "postalCode": "680586",
+        "addressCountry": "IN"
+      },
+      "slogan": "Learn. Build. Grow.",
+      "sameAs": [
+        "https://www.instagram.com/qentora_digital",
+        "https://www.facebook.com/share/1B86U7aeDS/"
+      ]
+    }
+    </script>
+
+    <style>
+        /* ==========================================================================
+           1. CORE VARIABLES & RESET (STRIPE / LINEAR INSPIRED LUXURY DARK THEME)
+           ========================================================================== */
+        :root {
+            --primary: #0F4CFF;
+            --primary-hover: #0038E0;
+            --secondary: #00D4C6;
+            --bg-color: #0A0A0A;
+            --surface: #111116;
+            --surface-hover: #181820;
+            --surface-border: rgba(255, 255, 255, 0.08);
+            --text-main: #FFFFFF;
+            --text-muted: #B0B0B0;
+            --accent-gradient: linear-gradient(135deg, #0F4CFF 0%, #00D4C6 100%);
+            --glass-bg: rgba(17, 17, 22, 0.7);
+            --font-main: 'Inter', sans-serif;
+            --font-display: 'Manrope', sans-serif;
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --shadow-glow: 0 0 50px rgba(15, 76, 255, 0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        ::selection {
+            background: var(--primary);
+            color: #ffffff;
+        }
+
+        /* Typography Base */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+        }
+
+        p {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+        }
+
+        /* Container & Utilities */
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .gradient-text {
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .section-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 16px;
+            background: rgba(15, 76, 255, 0.1);
+            border: 1px solid rgba(15, 76, 255, 0.3);
+            border-radius: 50px;
+            color: var(--secondary);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 16px;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 60px auto;
+        }
+
+        .section-header h2 {
+            font-size: clamp(2.2rem, 4vw, 3.2rem);
+            margin-bottom: 16px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: #ffffff;
+            box-shadow: 0 4px 20px rgba(15, 76, 255, 0.35);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(15, 76, 255, 0.5);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-main);
+            border: 1px solid var(--surface-border);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        /* Custom Glass Card */
+        .glass-card {
+            background: var(--surface);
+            border: 1px solid var(--surface-border);
+            border-radius: var(--radius-md);
+            padding: 32px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(15, 76, 255, 0.4);
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-glow);
+        }
+
+        /* ==========================================================================
+           2. NAVIGATION BAR
+           ========================================================================== */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 20px 0;
+            transition: all 0.3s ease;
+        }
+
+        .navbar.scrolled {
+            padding: 14px 0;
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--surface-border);
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-family: var(--font-display);
+            font-size:1.45rem;
+            font-weight:800;
+        }
+
+        .brand-logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 0.95rem;
+            font-weight:600;
+            color: var(--text-muted);
+        }
+
+        .nav-links a:hover {
+            color: var(--text-main);
+        }
+
+        .mobile-toggle {
+            display: none;
+            font-size: 1.5rem;
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        /* ==========================================================================
+           3. HERO SECTION (INTERACTIVE DASHBOARD PREVIEW)
+           ========================================================================== */
+        .hero {
+            padding: 180px 0 100px 0;
+            position: relative;
+            background: radial-gradient(circle at 50% 20%, rgba(15, 76, 255, 0.15) 0%, transparent 60%);
+        }
+
+        .hero-content {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.8rem, 5.5vw, 4.8rem);
+            margin-bottom: 24px;
+            letter-spacing: -0.03em;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 720px;
+            margin: 0 auto 36px auto;
+        }
+
+        .hero-buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+        }
+
+        /* Interactive Agency Dashboard Feature */
+        .hero-dashboard-wrapper {
+            margin-top: 40px;
+            position: relative;
+            border-radius: var(--radius-lg);
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--surface-border);
+            box-shadow: 0 30px 100px rgba(0, 0, 0, 0.8);
+        }
+
+        .dashboard-container {
+            background: var(--surface);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            text-align: left;
+        }
+
+        .dash-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--surface-border);
+            border-radius: var(--radius-sm);
+            padding: 20px;
+        }
+
+        .dash-metric {
+            font-size: 2rem;
+            font-weight: 800;
+            margin: 8px 0;
+        }
+
+        .lead-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            background: rgba(0, 212, 198, 0.08);
+            border: 1px solid rgba(0, 212, 198, 0.2);
+            border-radius: var(--radius-sm);
+            margin-bottom: 12px;
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        /* Floating Badge */
+        .floating-badge {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--secondary);
+            padding: 12px 20px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* ==========================================================================
+           4. TRUST & STATS STRIP
+           ========================================================================== */
+        .trust-section {
+            padding: 60px 0;
+            border-y: 1px solid var(--surface-border);
+            background: rgba(255,255,255,0.01);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 2.8rem;
+            color: var(--text-main);
+        }
+
+        /* ==========================================================================
+           5. ABOUT SECTION
+           ========================================================================== */
+        .about-section {
+            padding: 120px 0;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-content h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        .about-vision-card {
+            background: linear-gradient(135deg, rgba(15, 76, 255, 0.05), rgba(0, 212, 198, 0.05));
+            border: 1px solid var(--surface-border);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+        }
+
+        /* ==========================================================================
+           6. SERVICES SECTION
+           ========================================================================== */
+        .services-section {
+            padding: 120px 0;
+            background: radial-gradient(circle at 10% 50%, rgba(15, 76, 255, 0.05) 0%, transparent 50%);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 30px;
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 14px;
+            background: rgba(15, 76, 255, 0.1);
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 24px;
+            border: 1px solid rgba(15, 76, 255, 0.2);
+        }
+
+        .service-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+        }
+
+        .service-card p {
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .service-features {
+            list-style: none;
+            margin-bottom: 24px;
+        }
+
+        .service-features li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        .service-features li i {
+            color: var(--secondary);
+            font-size: 0.75rem;
+        }
+
+        /* ==========================================================================
+           7. PROCESS TIMELINE
+           ========================================================================== */
+        .process-section {
+            padding: 120px 0;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            position: relative;
+        }
+
+        .process-card {
+            background: var(--surface);
+            border: 1px solid var(--surface-border);
+            padding: 30px 20px;
+            border-radius: var(--radius-md);
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--accent-gradient);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            margin: 0 auto 16px auto;
+        }
+
+        /* ==========================================================================
+           8. PORTFOLIO GRID
+           ========================================================================== */
+        .portfolio-section {
+            padding: 120px 0;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 30px;
+        }
+
+        .portfolio-card img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: var(--radius-sm);
+            margin-bottom: 20px;
+        }
+
+        .metrics-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: rgba(0, 212, 198, 0.1);
+            color: var(--secondary);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        /* ==========================================================================
+           9. PRICING PACKAGES
+           ========================================================================== */
+        .pricing-section {
+            padding: 120px 0;
+            background: rgba(255, 255, 255, 0.01);
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .pricing-card.popular {
+            border-color: var(--primary);
+            background: linear-gradient(180deg, rgba(15, 76, 255, 0.08) 0%, var(--surface) 100%);
+            position: relative;
+        }
+
+        .popular-badge {
+            position: absolute;
+            top: -14px;
+            right: 20px;
+            background: var(--primary);
+            color: #fff;
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .price-val {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin: 16px 0;
+        }
+
+        /* ==========================================================================
+           10. FAQ ACCORDION
+           ========================================================================== */
+        .faq-section {
+            padding: 120px 0;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--surface);
+            border: 1px solid var(--surface-border);
+            border-radius: var(--radius-sm);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .faq-answer {
+            padding: 0 24px 20px 24px;
+            display: none;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255,255,255,0.03);
+            padding-top: 16px;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+            color: var(--primary);
+        }
+
+        /* ==========================================================================
+           11. CONTACT SECTION
+           ========================================================================== */
+        .contact-section {
+            padding: 120px 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form select {
+            width: 100%;
+            padding: 14px 18px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--surface-border);
+            border-radius: var(--radius-sm);
+            color: #fff;
+            font-family: inherit;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus,
+        .contact-form select:focus {
+            border-color: var(--primary);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 30px;
+        }
+
+        .info-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: rgba(15, 76, 255, 0.1);
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        /* ==========================================================================
+           12. FOOTER & FLOATING CTA
+           ========================================================================== */
+        footer {
+            background: #050507;
+            border-top: 1px solid var(--surface-border);
+            padding: 80px 0 30px 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .footer-col h4 {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .social-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--surface);
+            border: 1px solid var(--surface-border);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .social-btn:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Floating Widgets */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+            z-index: 999;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+
+        /* ==========================================================================
+           13. RESPONSIVE DESIGN (MOBILE / TABLET)
+           ========================================================================== */
+        @media (max-width: 992px) {
+            .nav-links { display: none; }
+            .mobile-toggle { display: block; }
+            .about-grid, .contact-grid, .dashboard-container { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            .hero h1 { font-size: 2.8rem; }
+        }
+
+        @media (max-width: 576px) {
+            .footer-grid { grid-template-columns: 1fr; }
+            .services-grid, .portfolio-grid, .pricing-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+ </head>
+<body>
+
+ <!-- ==================== NAVIGATION BAR WITH OFFER BANNER ==================== -->
+<nav class="navbar" id="navbar" style="display: block !important; width: 100% !important; padding: 0 !important; margin: 0 !important; position: relative !important; z-index: 9999 !important; box-sizing: border-box !important;">
+    
+    <!-- Top Offer Banner -->
+    <div style="width: 100% !important; background: linear-gradient(90deg, #4f46e5, #7c3aed) !important; color: #ffffff !important; text-align: center !important; padding: 6px 8px !important; font-weight: 600 !important; font-size: 0.75rem !important; display: flex !important; align-items: center !important; justify-content: center !important; gap: 6px !important; box-sizing: border-box !important;">
+        <span style="font-size: 0.7rem !important; line-height: 1.2 !important; color: #ffffff !important;">🚀 <strong>Launch Offer:</strong> Get FREE Digital Marketing Audit</span>
+        <a href="#contact" style="background-color: #ffffff !important; color: #7c3aed !important; padding: 3px 8px !important; border-radius: 15px !important; text-decoration: none !important; font-weight: 700 !important; font-size: 0.65rem !important; white-space: nowrap !important; display: inline-block !important;">
+            Book &rarr;
+        </a>
+    </div>
+
+    <!-- Main Navigation Content -->
+    <div class="container nav-container" style="width: 100% !important; max-width: 1200px !important; margin: 0 auto !important; padding: 10px 15px !important; display: flex !important; align-items: center !important; justify-content: space-between !important; box-sizing: border-box !important; gap: 10px !important;">
+        
+       <!-- Brand Logo & Single-Line Text -->
+       <a href="#" style="display: flex !important; align-items: center !important; gap: 4px !important; text-decoration: none !important; min-width: 0 !important; flex-shrink: 1 !important;">
+           <img src="logo.png" alt="Qentora Digital" style="height: 22px !important; width: auto !important; object-fit: contain !important; display: block !important; flex-shrink: 0 !important; max-width: 100% !important;">
+           
+           <span style="font-family: var(--font-display); font-size: 0.65rem !important; font-weight: 800 !important; color: #ffffff !important; letter-spacing: 0.2px !important; white-space: nowrap !important; line-height: 1 !important; display: inline-block !important;">
+               QENTORA <span style="color: var(--primary);">DIGITAL</span>
+           </span>
+       </a>
+
+        <!-- Nav Links inside Nav -->
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#pricing">Packages</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+
+        <!-- Header Button & Mobile Toggle Controls -->
+        <div style="display: flex !important; align-items: center !important; gap: 8px !important; flex-shrink: 0 !important;">
+            <a href="#contact" class="btn btn-primary" style="font-size: 0.7rem !important; padding: 6px 10px !important; white-space: nowrap !important; border-radius: 6px !important;">
+                Book Audit
+            </a>
+            
+            <button class="mobile-toggle" onclick="toggleMobileMenu()" aria-label="Toggle Menu" style="background: none !important; border: none !important; color: #ffffff !important; font-size: 1.3rem !important; cursor: pointer !important; padding: 2px !important; display: flex !important; align-items: center !important;">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+    </div>
+</nav>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <span class="section-tag">
+                    <i class="fa-solid fa-bolt"></i> Learn. Build. Grow.
+                </span>
+                <h1>Grow Your Business with <span class="gradient-text">Smarter Digital Marketing</span>.</h1>
+                <p> We help businesses generate qualified leads, increase conversions, and achieve sustainable growth through SEO, Meta Ads, Google Ads, high-converting websites, branding and AI-powered marketing strategies.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-calendar-check"></i> Book Free Consultation</a>
+                    <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-chart-line"></i> Get Free Marketing Audit</a>
+                </div>
+            </div>
+
+            <!-- Interactive Agency Live Dashboard -->
+            <div class="hero-dashboard-wrapper">
+                <div class="floating-badge">
+                    <i class="fa-solid fa-circle" style="color: #00D4C6; font-size: 0.6rem;"></i> 
+                    Live ROI Campaign Engine
+                </div>
+
+                <div class="dashboard-container">
+                    <div class="dash-card">
+                        <p style="font-size: 0.85rem; color: var(--text-muted);">Real-time Client Performance</p>
+                        <div class="dash-metric gradient-text">Performance
+Marketing
+
+SEO • Meta Ads
+Google Ads</div>
+                        <p style="font-size: 0.85rem; color: var(--secondary);"><i class="fa-solid fa-arrow-trend-up"></i> +340% Avg. Revenue Scale</p>
+                        <hr style="border-color: var(--surface-border); margin: 16px 0;">
+                        
+                        <div class="lead-badge">
+                            <i class="fa-solid fa-bell" style="color: var(--secondary);"></i>
+                            <div>
+                                <div style="font-size: 0.85rem; font-weight: 700;">New Qualified Lead</div>
+                                <div style="font-size: 0.75rem; color: var(--text-muted);">B2B Client in Kerala • 10s ago</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dash-card">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                            <span style="font-size: 0.9rem; font-weight: 700;">Conversion Analytics (Monthly)</span>
+                            <span style="font-size: 0.75rem; color: var(--primary);">Active System</span>
+                        </div>
+                        <div style="height: 120px; width: 100%; display: flex; align-items: flex-end; gap: 8px; padding-top: 20px;">
+                            <div style="height: 40%; flex: 1; background: rgba(15,76,255,0.2); border-radius: 4px;"></div>
+                            <div style="height: 60%; flex: 1; background: rgba(15,76,255,0.4); border-radius: 4px;"></div>
+                            <div style="height: 80%; flex: 1; background: rgba(15,76,255,0.6); border-radius: 4px;"></div>
+                            <div style="height: 100%; flex: 1; background: var(--accent-gradient); border-radius: 4px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TRUST / STATS STRIP ==================== -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>98%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="gradient-text">10X</h3>
+                    <p>Average ROAS Target</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Successful Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Growth Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">About Qentora Digital</span>
+                    <h2>We Don't Just Run Ads. We Build Growth Systems.</h2>
+                    <p style="margin-bottom: 20px;">Qentora Digital was established with a singular mission: to help businesses break through digital noise and build sustainable, high-converting growth channels.</p>
+                    <p>Based in Kerala and expanding globally, we blend international design standards with performance-first data. Alongside our core agency operations, our **Academy** cultivates India's next generation of elite digital marketing specialists.</p>
+                </div>
+
+                <div class="about-vision-card glass-card">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 16px;">Our Vision</h3>
+                    <p style="margin-bottom: 24px;">To become one of India's most trusted performance digital marketing agencies while building a world-class educational ecosystem for digital marketers.</p>
+                    
+                    <div style="display: flex; gap: 16px;">
+                        <div>
+                            <h4 style="color: var(--secondary); font-size: 1.2rem;">Mission</h4>
+                            <p style="font-size: 0.9rem;">Empower regional & global businesses with high ROI strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">High Impact Expertise</span>
+                <h2>Performance Marketing & Digital Capabilities</h2>
+                <p>Tailored strategies designed to convert visitors into loyal clients.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <h3>Search Engine Optimization (SEO)</h3>
+                    <p>Improve your visibility on Google search results. We rank your brand for buying-intent keywords to capture organic customers.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Technical SEO & Audits</li>
+                        <li><i class="fa-solid fa-check"></i> Local SEO for Kerala Businesses</li>
+                        <li><i class="fa-solid fa-check"></i> Keyword & Competitor Targeting</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary" style="width: 100%; font-size: 0.85rem;">Get SEO Audit</a>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-rectangle-ad"></i></div>
+                    <h3>Meta & Google Paid Ads</h3>
+                    <p>Data-driven ad campaigns on Facebook, Instagram, and Google Search that maximize ROI and cut Acquisition Cost.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> High-converting Ad Creatives</li>
+                        <li><i class="fa-solid fa-check"></i> Audience Retargeting Engines</li>
+                        <li><i class="fa-solid fa-check"></i> ROAS Optimization</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary" style="width: 100%; font-size: 0.85rem;">Scale With Ads</a>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Websites & Landing Pages</h3>
+                    <p>International standard web experiences built for high speed, sleek aesthetic, and maximum lead conversions.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Fast & Responsive Code</li>
+                        <li><i class="fa-solid fa-check"></i> UI/UX Conversion Architecture</li>
+                        <li><i class="fa-solid fa-check"></i> Custom Web Application Dev</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary" style="width: 100%; font-size: 0.85rem;">Build Website</a>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>AI Marketing & Automation</h3>
+                    <p>Integrate cutting-edge AI systems to automate sales workflows, lead nurturing, and social scheduling.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Automated CRM Pipelines</li>
+                        <li><i class="fa-solid fa-check"></i> AI Content Strategy</li>
+                        <li><i class="fa-solid fa-check"></i> Chatbot Integrations</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary" style="width: 100%; font-size: 0.85rem;">Automate Sales</a>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3>Branding & Identity</h3>
+                    <p>Craft a luxury visual identity and memorable brand positioning that demands  strong brand identity.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Premium Logo Design</li>
+                        <li><i class="fa-solid fa-check"></i> Brand Messaging Frameworks</li>
+                        <li><i class="fa-solid fa-check"></i> Visual Guidelines</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary" style="width: 100%; font-size: 0.85rem;">Design Brand</a>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3>Qentora Digital Academy</h3>
+                    <p>Master practical, industry-grade digital marketing with real case studies and agency mentorship.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Live Campaign Access</li>
+                        <li><i class="fa-solid fa-check"></i>  Practical Industry Mentorship</li>
+                        <li><i class="fa-solid fa-check"></i> Career Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary" style="width: 100%; font-size: 0.85rem;">Explore Academy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROCESS SECTION ==================== -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">How We Work</span>
+                <h2>6-Step Blueprint To Scale</h2>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="step-number">1</div>
+                    <h4>Discovery</h4>
+                    <p style="font-size: 0.85rem; margin-top: 8px;">Understanding goals & audience.</p>
+                </div>
+                <div class="process-card">
+                    <div class="step-number">2</div>
+                    <h4>Research</h4>
+                    <p style="font-size: 0.85rem; margin-top: 8px;">Analyzing competitors & data.</p>
+                </div>
+                <div class="process-card">
+                    <div class="step-number">3</div>
+                    <h4>Strategy</h4>
+                    <p style="font-size: 0.85rem; margin-top: 8px;">Custom ROI Roadmap creation.</p>
+                </div>
+                <div class="process-card">
+                    <div class="step-number">4</div>
+                    <h4>Execution</h4>
+                    <p style="font-size: 0.85rem; margin-top: 8px;">Launching ads & campaign builds.</p>
+                </div>
+                <div class="process-card">
+                    <div class="step-number">5</div>
+                    <h4>Optimize</h4>
+                    <p style="font-size: 0.85rem; margin-top: 8px;">Fine-tuning conversion paths.</p>
+                </div>
+                <div class="process-card">
+                    <div class="step-number">6</div>
+                    <h4>Scale</h4>
+                    <p style="font-size: 0.85rem; margin-top: 8px;">Expanding budget & market share.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO SECTION ==================== -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Case Studies</span>
+                <h2>Proven Results & Track Record</h2>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="glass-card portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Scale Project">
+                    <h3>E-Commerce Growth Scaling</h3>
+                    <p>Scaled an online regional brand's sales using targeted Meta Ads & custom landing page optimization.</p>
+                    <span class="metrics-badge">+420% Monthly Sales Increase</span>
+                </div>
+
+                <div class="glass-card portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80" alt="B2B Lead Engine">
+                    <h3>B2B Lead Generation Engine</h3>
+                    <p>Implemented Google Search Ads and SEO framework for a local service firm in Kerala.</p>
+                    <span class="metrics-badge">180+ High-Quality Leads / Mo</span>
+                </div>
+
+                <div class="glass-card portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Brand Revamp Project">
+                    <h3>Luxury Brand & Web Redesign</h3>
+                    <p>Full rebrand and modern web application development for an international consulting business.</p>
+                    <span class="metrics-badge">3x Higher Conversion Rate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PRICING PACKAGES ==================== -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Growth Investment</span>
+                <h2>Transparent Agency Packages</h2>
+                <p>Select a package engineered to accelerate your current stage of business.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Starter Package -->
+                <div class="glass-card pricing-card">
+                    <h3>Starter Growth</h3>
+                    <p style="font-size: 0.85rem;">Ideal for local businesses establishing market presence.</p>
+                    <div class="price-val">Custom</div>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Social Media Management</li>
+                        <li><i class="fa-solid fa-check"></i> Local SEO Optimization</li>
+                        <li><i class="fa-solid fa-check"></i> Meta Ad Setup</li>
+                        <li><i class="fa-solid fa-check"></i> Monthly Analytics Report</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary" style="width: 100%; margin-top: 20px;">Select Plan</a>
+                </div>
+
+                <!-- Business Growth (Recommended) -->
+                <div class="glass-card pricing-card popular">
+                    <span class="popular-badge">Most Popular</span>
+                    <h3>Business Scale</h3>
+                    <p style="font-size: 0.85rem;">Engineered for ambitious businesses seeking high lead volume.</p>
+                    <div class="price-val gradient-text">Growth</div>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Advanced SEO & Content Strategy</li>
+                        <li><i class="fa-solid fa-check"></i> Meta & Google Ads Management</li>
+                        <li><i class="fa-solid fa-check"></i> High-Converting Landing Page</li>
+                        <li><i class="fa-solid fa-check"></i> AI Lead Nurturing Workflows</li>
+                        <li><i class="fa-solid fa-check"></i> Bi-weekly Strategy Calls</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" style="width: 100%; margin-top: 20px;">Select Plan</a>
+                </div>
+
+                <!-- Premium Enterprise -->
+                <div class="glass-card pricing-card">
+                    <h3>Enterprise Dominance</h3>
+                    <p style="font-size: 0.85rem;">Complete 360-degree marketing department takeover.</p>
+                    <div class="price-val">Custom</div>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Full Stack Web Application</li>
+                        <li><i class="fa-solid fa-check"></i> Unlimited Campaign Scaling</li>
+                        <li><i class="fa-solid fa-check"></i> Dedicated Account Strategist</li>
+                        <li><i class="fa-solid fa-check"></i> Full Brand Video & Creative Studio</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary" style="width: 100%; margin-top: 20px;">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FAQ ACCORDION ==================== -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Got Questions?</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How soon can we expect results from your marketing campaigns?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Paid Ads (Meta & Google) can generate qualified leads within 48-72 hours of campaign launch. SEO and organic strategies typically build compounding market dominance within 3 to 6 months.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Does Qentora Digital work with international clients?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes! While our agency initially focuses on high-growth Indian businesses in Kerala, our systems, standards, and communication tools are built to support global enterprises seamlessly.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What makes Qentora Digital different from other agencies?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        We don't focus on vanity metrics like clicks or impressions. We build ROI-focused systems designed directly around revenue, customer acquisition cost (CAC), and sustainable business scale.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div>
+                    <span class="section-tag">Get In Touch</span>
+                    <h2>Ready to Scale Your Business?</h2>
+                    <p style="margin-bottom: 40px;">Book your free 30-minute growth discovery call with our primary strategists today.</p>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Direct Line</h4>
+                            <p>+91 9292006957</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>qentoradigital.in@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Agency HQ</h4>
+                            <p>Pangarappilli, Chelakkara, Thrissur, Kerala, India – 680586</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="glass-card">
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! Your discovery request has been submitted.');">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Business Email</label>
+                            <input type="email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="+91 98765 43210" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Service Interested In</label>
+                            <select style="background: #111116;">
+                                <option>Performance Ads (Meta/Google)</option>
+                                <option>SEO & Organic Growth</option>
+                                <option>Website & Landing Page Dev</option>
+                                <option>Full Marketing Strategy</option>
+                                <option>Academy Enquiries</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Message</label>
+                            <textarea rows="4" placeholder="Tell us about your business goals..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Consultation Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Floating WhatsApp CTA -->
+    <a href="https://wa.me/919292006957" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        // Sticky Navbar Effect on Scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Accordion functionality for FAQ
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                item.classList.toggle('active');
+            });
+        });
+
+        // Side Drawer Mobile Menu Toggle Logic
+        const mobileBtn = document.querySelector('.mobile-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        if (mobileBtn && navLinks) {
+            mobileBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+
+            // ലിങ്കിൽ ക്ലിക്ക് ചെയ്യുമ്പോൾ മെനു ക്ലോസ് ആകാൻ
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                });
+            });
+        }
+    </script>
+   
+ <!-- ==================== FINAL MOBILE FIX ==================== -->
+    <style>
+      @media screen and (max-width: 768px) {
+
+        /* 1. Page Reset */
+        html, body {
+          width: 100% !important;
+          max-width: 100vw !important;
+          overflow-x: hidden !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        /* 2. Offer Banner - Full Width Edge to Edge & Very Small Height */
+        body header > *:first-child, 
+        body .announcement-bar, 
+        body div[class*="offer"],
+        body div[class*="launch"] {
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+          justify-content: center !important;
+          width: 100vw !important;
+          max-width: 100vw !important;
+          position: relative !important;
+          top: 0 !important;
+          left: 0 !important;
+          right: 0 !important;
+          margin: 0 0 8px 0 !important;
+          padding: 3px 6px !important;
+          font-size: 10px !important;
+          height: 28px !important;
+          min-height: 28px !important;
+          max-height: 30px !important;
+          box-sizing: border-box !important;
+          gap: 6px !important;
+          text-align: center !important;
+          border-radius: 0 !important;
+        }
+
+        body header > *:first-child p, 
+        body header > *:first-child span, 
+        body .announcement-bar p {
+          font-size: 9px !important;
+          margin: 0 !important;
+          line-height: 1 !important;
+          white-space: nowrap !important;
+        }
+
+        body header > *:first-child a, 
+        body header > *:first-child button, 
+        body .announcement-bar a {
+          font-size: 8px !important;
+          padding: 2px 5px !important;
+          margin: 0 !important;
+          display: inline-block !important;
+          white-space: nowrap !important;
+          line-height: 1 !important;
+        }
+
+        /* 3. Header Alignment */
+        body header, 
+        body header nav, 
+        body .navbar {
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+          justify-content: space-between !important;
+          padding: 4px 8px !important;
+          width: 100% !important;
+          box-sizing: border-box !important;
+          position: relative !important;
+        }
+
+        /* 4. Logo Resizing */
+        body header img, 
+        body .logo, 
+        body .logo img, 
+        body header a[class*="logo"] {
+          max-width: 85px !important;
+          height: auto !important;
+          position: static !important;
+          margin: 0 !important;
+        }
+
+        /* Hide Desktop Links */
+        body header nav > ul, 
+        body nav > ul {
+          display: none !important;
+        }
+
+        /* 5. Book Consultation Button - Super Small Size */
+        body header button, 
+        body header a.btn, 
+        body header .btn-primary, 
+        body header a[href*="book"],
+        body nav a[href*="book"] {
+          font-size: 7px !important;
+          padding: 3px 6px !important;
+          min-width: unset !important;
+          max-width: fit-content !important;
+          width: auto !important;
+          height: auto !important;
+          max-height: 22px !important;
+          border-radius: 6px !important;
+          white-space: nowrap !important;
+          margin: 0 !important;
+          position: static !important;
+          line-height: 1 !important;
+          box-shadow: none !important;
+          display: inline-flex !important;
+          align-items: center !important;
+        }
+
+        /* 6. Mobile Menu Icon */
+        body .mobile-toggle, 
+        body .hamburger, 
+        body .hamburger-menu {
+          display: flex !important;
+          font-size: 16px !important;
+          position: static !important;
+          margin: 0 !important;
+        }
+      }
+     /* 6. Mobile Menu Icon */
+        body .mobile-toggle, 
+        body .hamburger, 
+        body .hamburger-menu {
+          display: flex !important;
+          font-size: 16px !important;
+          position: static !important;
+          margin: 0 !important;
+        }
+      }
+    </style>
+
+    <!-- FORCE TOP BANNER FIX -->
+    <style>
+      @media screen and (max-width: 768px) {
+        /* 1. പർപ്പിൾ ബാറിനെ സ്ക്രീനിന്റെ മുകളിൽ പൂർണ്ണമായി പരത്തി വയ്ക്കുന്നു */
+        header > div:first-child,
+        header > section:first-child,
+        .top-banner,
+        div[class*="offer"],
+        div[class*="launch"],
+        div[class*="announcement"] {
+          position: relative !important;
+          top: 0 !important;
+          left: 0 !important;
+          right: 0 !important;
+          width: 100vw !important;
+          max-width: 100vw !important;
+          float: none !important;
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+          justify-content: center !important;
+          height: auto !important;
+          min-height: 32px !important;
+          padding: 4px 8px !important;
+          margin: 0 !important;
+          box-sizing: border-box !important;
+        }
+
+        /* 2. ഓഫർ ടെക്സ്റ്റ് ഒരൊറ്റ ലൈനിൽ ആക്കുന്നു */
+        header > div:first-child *,
+        .top-banner *,
+        div[class*="offer"] *,
+        div[class*="launch"] * {
+          display: inline-block !important;
+          font-size: 10px !important;
+          white-space: nowrap !important;
+          margin: 0 2px !important;
+        }
+
+        /* 3. ഓഫർ ബാറിലെ ബട്ടൺ വലിപ്പം */
+        header > div:first-child a,
+        .top-banner a,
+        div[class*="offer"] a {
+          font-size: 9px !important;
+          padding: 2px 6px !important;
+          border-radius: 4px !important;
+        }
+
+        /* 4. ഹെഡറിലെ ലോഗോയും 'Book Consultation' ബട്ടണും ഒരേ വരിയിലാക്കാൻ */
+        header nav, .navbar {
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+          justify-content: space-between !important;
+          width: 100% !important;
+          padding: 8px !important;
+        }
+
+        /* 'Book Consultation' ബട്ടൺ ചെറിയ വലിപ്പത്തിലാക്കുന്നു */
+        header nav a[href*="book"], 
+        header .btn, 
+        header button {
+          font-size: 9px !important;
+          padding: 5px 10px !important;
+    white-space: nowrap !important;
+  }
+}
+
+/* Mobile Menu Dropdown Fix */
+@media (max-width: 992px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #0b0f19; /* വെബ്‌സൈറ്റിന്റെ പശ്ചാത്തല നിറം */
+        padding: 20px;
+        gap: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        z-index: 1000;
+    }
+
+    /* Hamburger Icon ക്ലിക്ക് ചെയ്യുമ്പോൾ മെനു കാണിക്കാൻ */
+    .nav-links.active {
+        display: flex !important;
+    }
+}
+/* Mobile Typography & Overflow Fix */
+@media (max-width: 768px) {
+    /* Hero Heading Fix */
+    .hero h1, h1 {
+        font-size: 2.1rem !important;
+        line-height: 1.2 !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+    }
+
+    /* Section Headings Fix (Performance Marketing...) */
+    h2, .section-title {
+        font-size: 1.8rem !important;
+        line-height: 1.25 !important;
+        word-wrap: break-word !important;
+    }
+
+    /* Card Titles Fix (Search Engine Optimization...) */
+    h3, .card-title {
+        font-size: 1.3rem !important;
+        line-height: 1.3 !important;
+    }
+
+    /* Overall Container Padding Adjustment */
+    .container, section {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        overflow-x: hidden !important;
+    }
+}
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
+}
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.innerWidth <= 768) {
+      // ഓഫർ ബോക്സ് കാണുന്നുണ്ടെന്ന് ഉറപ്പാക്കുന്നു
+      const offerBox = document.querySelector('[class*="offer"]') || 
+                       document.querySelector('[class*="launch"]') || 
+                       document.querySelector('.top-banner');
+                       
+      if (offerBox) {
+        offerBox.style.cssText = `
+          position: relative !important;
+          top: 0 !important;
+          left: 0 !important;
+          width: 100% !important;
+          max-width: 100vw !important;
+          height: auto !important;
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+          justify-content: center !important;
+          margin: 0 0 10px 0 !important;
+          padding: 6px 10px !important;
+          box-sizing: border-box !important;
+        `;
+      }
+    }
+  });
+</script>
+
+<!-- JavaScript for Mobile Menu Toggle -->
+ <script>
+    function toggleMobileMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            if (navLinks.style.display === 'flex') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'flex';
+                navLinks.style.flexDirection = 'column';
+                navLinks.style.position = 'absolute';
+                navLinks.style.top = '100%';
+                navLinks.style.left = '0';
+                navLinks.style.width = '100%';
+                navLinks.style.backgroundColor = '#0b0f19';
+                navLinks.style.padding = '20px';
+                navLinks.style.zIndex = '99999';
+                navLinks.style.boxShadow = '0 10px 20px rgba(0,0,0,0.5)';
+            }
+        }
+    }
+</script>
+</body>
+</html>
+<!-- നിങ്ങളുടെ ബാക്കി എല്ലാ HTML ഉള്ളടക്കങ്ങളും (Sections) ഇവിടെ അവസാനിക്കുന്നു -->
+
+    <!-- Professional Footer Copyright Section -->
+    <footer style="background-color: #070a12; border-top: 1px solid rgba(255, 255, 255, 0.08); padding: 25px 15px; color: #8a94a6; font-size: 0.8rem; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 12px;">
+            
+            <!-- Social or Quick Links -->
+            <div style="display: flex; gap: 18px; flex-wrap: wrap; justify-content: center; margin-bottom: 5px;">
+                <a href="#privacy" style="color: #a0aec0; text-decoration: none; font-size: 0.75rem;">Privacy Policy</a>
+                <a href="#terms" style="color: #a0aec0; text-decoration: none; font-size: 0.75rem;">Terms of Service</a>
+                <a href="#contact" style="color: #a0aec0; text-decoration: none; font-size: 0.75rem;">Contact Us</a>
+            </div>
+
+            <!-- Copyright Text -->
+            <p style="margin: 0; font-size: 0.75rem; color: #64748b;">
+                &copy; 2026 <strong>Qentora Digital</strong>. All rights reserved. Built for growth.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript ഫംഗ്ഷനുകൾ ഇവിടെ നൽകാം -->
+    <script>
+        function toggleMobileMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            if (navLinks) {
+                if (navLinks.style.display === 'flex') {
+                    navLinks.style.display = 'none';
+                } else {
+                    navLinks.style.display = 'flex';
+                    navLinks.style.flexDirection = 'column';
+                    navLinks.style.position = 'absolute';
+                    navLinks.style.top = '100%';
+                    navLinks.style.left = '0';
+                    navLinks.style.width = '100%';
+                    navLinks.style.backgroundColor = '#0b0f19';
+                    navLinks.style.padding = '20px';
+                    navLinks.style.zIndex = '99999';
+                    navLinks.style.boxShadow = '0 10px 20px rgba(0,0,0,0.5)';
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
